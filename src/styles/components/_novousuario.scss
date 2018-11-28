@@ -1,0 +1,92 @@
+.formulario{
+    padding-top: 1em;
+    text-align:center;
+    
+}
+
+.formulario__title{
+    
+    font-size: 2em;
+    font-weight: 800;
+    color:$dark-black;
+
+}
+
+.formulario__campos{
+    font-size: 1em;
+    padding: $l-size 0;
+//    display: flex;
+//    justify-content: space-between;
+
+}
+
+
+.formulario__campos input{
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size:15px;
+    margin: 1em 1em;
+
+    
+}
+
+.formulario__campos label{
+    font-weight: 900;
+    margin-top:0.5em;
+    font-size:1em;
+}
+
+.formulario__campos select {
+  //  margin-bottom: 2em;
+  //  margin-left: 1em;
+  //  margin-right: 1em;
+    margin: 1em 1em;
+    padding: 0.5em;
+    font-size:1em;
+    width: 20em;
+}
+
+#nome {
+    width: 40em;
+}
+
+#nascimento {
+    width: 20em;
+}
+
+#cpf{
+    width: 15em;
+}
+
+#endereco{
+    width: 45em;
+}
+
+#numero{
+    width: 10em;
+}
+
+#uf{
+    width: 4em;
+}
+
+#atendimento{
+    width: 20em;
+}
+
+#submit{
+    width: 740px;
+    background-color: rgb(28, 116, 231);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#e-mail {
+    width:20em;
+}

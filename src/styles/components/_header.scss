@@ -1,0 +1,29 @@
+.header{
+    
+    background: $dark-black;
+    padding: $s-size $s-size;
+    display: flex;
+    color:white;
+    
+}
+
+.logotipo {
+    color:$light-blue;
+    font-weight: 700;
+    font-size: 35px;
+    font-family:"Courier New";
+}
+
+.menu-items {
+    padding: 0 $xl-size;
+    margin-top: $s-size;
+}
+
+.menu-items button {
+    border:none;
+    margin-left: $l-size;
+    background: none;
+    color:white;
+}
+
+
